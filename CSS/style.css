@@ -71,6 +71,55 @@
         border-radius: 2%;
  
     } 
+    link a {
+        font-size: 1.7rem;
+        color: var(--text-color);
+        transition: .3s;
+    }
+ 
+    
+    .link:hover,
+    .link:active {
+        color: var(--main-color);
+    }
+    
+    
+    button{
+        transition: all 0.2s ease-in-out;
+        display: flex;
+        color: #ffffff;
+        border-radius: px;
+        border-color: aqua;
+        padding: 8px 22px;
+        font-family: 'Poppins',sans-serif;
+        width: fit-content;
+        height: fit-content;
+        background: #00111d73;
+        font-size: 20px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        
+        
+
+        
+    }
+    button:active{
+        transform: scale(.99);
+    }
+    button:hover{
+        
+        left: 0;
+        
+        background-color: rgba(0, 0, 0, 0.507);
+        cursor: pointer;
+        transform: scale(1.02);
+        transition: all in ease;
+        
+        transition: 0.1s ease;
+        color: #ffffff;
+    }
+ 
  
     .container{
         
