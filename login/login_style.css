@@ -10,6 +10,7 @@
 {
     --clr:#00ccbb;
 }
+/* This is The design of login the Webpage */
 body{
     display: flex;
     justify-content: center;
@@ -39,6 +40,17 @@ form h2{
     margin-bottom: 50px;
 
 }
+form p{
+    color: #fff;
+    text-transform: uppercase;
+}
+form p a{
+    color: var(--clr);
+    font-weight: 500;
+    text-decoration: none;
+    text-decoration: underline 1px var(--clr);
+}
+/* Input Boxes of User Account Information Imput */
 .inputbox{
     position: relative;
     width: 300px;
@@ -97,13 +109,4 @@ form h2{
 .inputbox input[type="submit"]:hover{
     letter-spacing: 0.35em;
 }
-form p{
-    color: #fff;
-    text-transform: uppercase;
-}
-form p a{
-    color: var(--clr);
-    font-weight: 500;
-    text-decoration: none;
-    text-decoration: underline 1px var(--clr);
-}
+
