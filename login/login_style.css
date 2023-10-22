@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
-
 }
 :root
 {
@@ -22,7 +21,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
 }
 form{
     background-color: rgba(9, 126, 126, 0.418);
@@ -45,7 +43,6 @@ form h2{
     position: relative;
     width: 300px;
     margin-bottom: 40px;
-
 }
 .inputbox input{
     position: relative;
@@ -59,7 +56,6 @@ form h2{
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-
 }
 .inputbox label span{
     position: relative;
@@ -72,7 +68,6 @@ form h2{
     color: var(--clr);
     letter-spacing: 0.15em;
     transform: translateY(-25px);
-
 }
 .inputbox input:focus,
 .inputbox input:valid{
@@ -85,7 +80,6 @@ form h2{
     pointer-events: none;
     color: #999;
     text-transform: uppercase;
-
 }
 .inputbox input[type="submit"]{
     background: var(--clr);
@@ -99,7 +93,6 @@ form h2{
     letter-spacing: 0.1em;
     cursor: pointer;
     transition: .3s;
-    
 }
 .inputbox input[type="submit"]:hover{
     letter-spacing: 0.35em;
@@ -113,5 +106,4 @@ form p a{
     font-weight: 500;
     text-decoration: none;
     text-decoration: underline 1px var(--clr);
-
 }
